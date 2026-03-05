@@ -1,1 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ubaldo Lopez | Projects</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; background-color: #fff; color: #333; }
+    nav { background-color: #333; color: #fff; padding: 10px 20px; display: flex; justify-content: space-between; align-items: center; }
+    nav a { color: #fff; margin-left: 15px; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    header { padding: 60px 20px; text-align: center; background-color: #f4f4f4; }
+    header h1 { font-size: 2.5em; margin-bottom: 10px; }
+    section { padding: 50px 20px; text-align: center; }
+    .project-card { width: 300px; margin: 15px; display: inline-block; vertical-align: top; background-color: #fff; padding: 15px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); border-radius: 10px; }
+    .project-card img { width: 100%; border-radius: 5px; }
+    .project-card h3 { margin-top: 10px; }
+  </style>
+</head>
+<body>
 
+  <!-- Navigation -->
+  <nav>
+    <div><strong>Ubaldo Lopez</strong></div>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header>
+    <h1>My Projects</h1>
+    <p>Here’s a full list of projects I’ve developed using Python, MIT App Inventor, and VEX VR.</p>
+  </header>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="project-card">
+      <img src="mit_app_project_screenshot.png" alt="MIT App Inventor Project">
+      <h3>MIT App Inventor Project</h3>
+      <p>Interactive mobile app with custom features.</p>
+    </div>
+
+    <div class="project-card">
+      <img src="vex_vr_project_screenshot.png" alt="VEX VR Project">
+      <h3>VEX VR Challenge</h3>
+      <p>Programmed a virtual robot to complete tasks.</p>
+    </div>
+
+    <div class="project-card">
+      <img src="python_project_screenshot.png" alt="Python Project">
+      <h3>Python Project</h3>
+      <p>Developed programs and applications to strengthen problem-solving skills.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <strong>youremail@example.com</strong></p>
+  </section>
+
+</body>
+</html>
