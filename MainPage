@@ -1,91 +1,157 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>UL | Computer Science Portfolio</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            scroll-behavior: smooth;
-        }
+<title>Ubaldo Lopez | CS Portfolio</title>
 
-        nav {
-            background-color: #111;
-            padding: 15px;
-            position: fixed;
-            width: 100%;
-            top: 0;
-        }
+<style>
 
-        nav a {
-            color: white;
-            margin-right: 20px;
-            text-decoration: none;
-            font-weight: bold;
-        }
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background-color:#f4f4f4;
+}
 
-        section {
-            padding: 100px 40px;
-        }
+/* Navigation bar */
 
-        #home {
-            background-color: #f4f4f4;
-            text-align: center;
-        }
+nav{
+background-color:#111;
+padding:15px;
+position:fixed;
+width:100%;
+top:0;
+}
 
-        #projects {
-            background-color: white;
-        }
+nav a{
+color:white;
+text-decoration:none;
+margin-right:20px;
+font-weight:bold;
+}
 
-        #skills {
-            background-color: #f4f4f4;
-        }
+/* Main intro section */
 
-        #contact {
-            background-color: white;
-        }
+.hero{
+text-align:center;
+padding-top:120px;
+padding-bottom:80px;
+background:white;
+}
 
-        .project {
-            background: #eee;
-            padding: 15px;
-            margin-bottom: 15px;
-            border-radius: 8px;
-        }
-    </style>
+.hero h1{
+font-size:42px;
+margin-bottom:10px;
+}
+
+.hero p{
+font-size:18px;
+max-width:700px;
+margin:auto;
+}
+
+/* Button */
+
+.button{
+display:inline-block;
+margin-top:25px;
+padding:12px 22px;
+background:#333;
+color:white;
+text-decoration:none;
+border-radius:6px;
+}
+
+/* Sections */
+
+.section{
+padding:60px 40px;
+}
+
+.section h2{
+margin-bottom:20px;
+}
+
+/* Skills */
+
+.skills{
+background:#f4f4f4;
+}
+
+/* Contact */
+
+.contact{
+background:white;
+}
+
+/* Footer */
+
+footer{
+text-align:center;
+padding:20px;
+background:#111;
+color:white;
+}
+
+</style>
+
 </head>
+
+
 <body>
 
 <nav>
-    <a href="#home">Home</a>
-    <a href="#projects">Projects</a>
-    <a href="#skills">Skills</a>
-    <a href="#contact">Contact</a>
+<a href="index.html">Home</a>
+<a href="projects.html">Projects</a>
 </nav>
 
-<section id="home">
-    <h1>Your Name</h1>
-    <p>Honors Computer Science Student | 2025–2026</p>
-</section>
 
-<section id="projects">
-    <h2>Projects</h2>
+<div class="hero">
 
-    <div class="project">
-        <h3>Project Title</h3>
-        <p>Short description of what the project does.</p>
-    </div>
+<h1>Ubaldo Lopez</h1>
 
-</section>
+<p>Honors Computer Science Student | 2025–2026</p>
 
-<section id="skills">
-    <h2>Skills</h2>
-    <p>Python, Java, HTML, CSS</p>
-</section>
+<p>
+I am an Honors Computer Science student with experience developing projects using Python,
+MIT App Inventor, and VEX VR. Throughout the school year I have worked on programs,
+applications, and virtual robotics challenges that strengthened my problem-solving and
+computational thinking skills. This portfolio showcases the projects I created and the
+technical skills I developed.
+</p>
 
-<section id="contact">
-    <h2>Contact</h2>
-    <p>Email: yourschool@email.com</p>
-</section>
+<a class="button" href="projects.html">View My Projects</a>
+
+</div>
+
+
+<div class="section skills">
+
+<h2>Skills</h2>
+
+<p>Python</p>
+<p>HTML</p>
+<p>CSS</p>
+<p>Git & GitHub</p>
+
+</div>
+
+
+<div class="section contact">
+
+<h2>Contact</h2>
+
+<p>Email: your-email@email.com</p>
+
+</div>
+
+
+<footer>
+
+<p>© 2026 Ubaldo Lopez</p>
+
+</footer>
+
 
 </body>
+
 </html>
