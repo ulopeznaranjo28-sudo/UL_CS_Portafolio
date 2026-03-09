@@ -1,66 +1,143 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ubaldo Lopez | Projects</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; background-color: #fff; color: #333; }
-    nav { background-color: #333; color: #fff; padding: 10px 20px; display: flex; justify-content: space-between; align-items: center; }
-    nav a { color: #fff; margin-left: 15px; text-decoration: none; font-weight: bold; }
-    nav a:hover { text-decoration: underline; }
-    header { padding: 60px 20px; text-align: center; background-color: #f4f4f4; }
-    header h1 { font-size: 2.5em; margin-bottom: 10px; }
-    section { padding: 50px 20px; text-align: center; }
-    .project-card { width: 300px; margin: 15px; display: inline-block; vertical-align: top; background-color: #fff; padding: 15px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); border-radius: 10px; }
-    .project-card img { width: 100%; border-radius: 5px; }
-    .project-card h3 { margin-top: 10px; }
-  </style>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>projects</title>
+
+<style>
+
+body{
+font-family:arial, sans-serif;
+margin:0;
+background:white;
+color:#333;
+text-align:center;
+}
+
+nav{
+background:#222;
+padding:15px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 20px;
+font-size:18px;
+}
+
+nav a:hover{
+text-decoration:underline;
+}
+
+header{
+background:#f4f4f4;
+padding:60px;
+}
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));
+gap:30px;
+padding:40px;
+max-width:1000px;
+margin:auto;
+}
+
+.card{
+padding:20px;
+background:white;
+box-shadow:0 2px 6px rgba(0,0,0,0.1);
+border-radius:8px;
+transition:transform 0.3s;
+}
+
+.card:hover{
+transform:scale(1.05);
+}
+
+.card img{
+width:100%;
+border-radius:6px;
+}
+
+button{
+margin-top:15px;
+padding:12px 22px;
+background:#4caf50;
+color:white;
+border:none;
+border-radius:6px;
+cursor:pointer;
+}
+
+button:hover{
+background:#3f9442;
+}
+
+</style>
+
 </head>
+
 <body>
 
-  <!-- Navigation -->
-  <nav>
-    <div><strong>Ubaldo Lopez</strong></div>
-    <div>
-      <a href="index.html">Home</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </div>
-  </nav>
+<nav>
+<a href="index.html">home</a>
+<a href="projects.html">projects</a>
+</nav>
 
-  <!-- Header -->
-  <header>
-    <h1>My Projects</h1>
-    <p>Here’s a full list of projects I’ve developed using Python, MIT App Inventor, and VEX VR.</p>
-  </header>
+<header>
+<h1>my projects</h1>
+<p>select a project to see full details</p>
+</header>
 
-  <!-- Projects Section -->
-  <section id="projects">
-    <div class="project-card">
-      <img src="mit_app_project_screenshot.png" alt="MIT App Inventor Project">
-      <h3>MIT App Inventor Project</h3>
-      <p>Interactive mobile app with custom features.</p>
-    </div>
+<div class="projects">
 
-    <div class="project-card">
-      <img src="vex_vr_project_screenshot.png" alt="VEX VR Project">
-      <h3>VEX VR Challenge</h3>
-      <p>Programmed a virtual robot to complete tasks.</p>
-    </div>
+<div class="card">
 
-    <div class="project-card">
-      <img src="python_project_screenshot.png" alt="Python Project">
-      <h3>Python Project</h3>
-      <p>Developed programs and applications to strengthen problem-solving skills.</p>
-    </div>
-  </section>
+<img src="chess1.png">
 
-  <!-- Contact Section -->
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <p>Email: <strong>youremail@example.com</strong></p>
-  </section>
+<h3>mit app inventor chess app</h3>
+
+<p>a chess application built using mit app inventor focusing on logic and gameplay.</p>
+
+<a href="project1.html">
+<button>view project</button>
+</a>
+
+</div>
+
+<div class="card">
+
+<img src="vex1.png">
+
+<h3>vex vr challenge</h3>
+
+<p>a virtual robotics challenge where the robot was programmed to complete tasks.</p>
+
+<a href="project2.html">
+<button>view project</button>
+</a>
+
+</div>
+
+<div class="card">
+
+<img src="python1.png">
+
+<h3>python combo menu app</h3>
+
+<p>a python program combining multiple menu options into a single interactive app.</p>
+
+<a href="project3.html">
+<button>view project</button>
+</a>
+
+</div>
+
+</div>
 
 </body>
 </html>
