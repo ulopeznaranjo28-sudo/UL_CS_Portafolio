@@ -1,84 +1,98 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ubaldo Lopez | Portfolio</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; background-color: #fff; color: #333; }
-    nav { background-color: #333; color: #fff; padding: 10px 20px; display: flex; justify-content: space-between; align-items: center; }
-    nav a { color: #fff; margin-left: 15px; text-decoration: none; font-weight: bold; }
-    nav a:hover { text-decoration: underline; }
-    header { padding: 60px 20px; text-align: center; background-color: #f4f4f4; }
-    header h1 { font-size: 2.5em; margin-bottom: 20px; }
-    header p { font-size: 1.1em; max-width: 700px; margin: auto; white-space: pre-line; }
-    section { padding: 50px 20px; text-align: center; }
-    .projects-container { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-bottom: 30px; }
-    .project-card { width: 250px; background-color: #fff; padding: 15px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); border-radius: 10px; }
-    .project-card img { width: 100%; border-radius: 5px; }
-    .project-card h3 { margin-top: 10px; }
-    .btn { display: inline-block; background-color: #4CAF50; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; }
-    .btn:hover { background-color: #45a049; }
-  </style>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ubaldo lopez portfolio</title>
+
+<style>
+
+body{
+font-family:arial, sans-serif;
+margin:0;
+background:#ffffff;
+color:#333333;
+text-align:center;
+}
+
+nav{
+background:#222;
+padding:15px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 20px;
+font-size:18px;
+}
+
+nav a:hover{
+text-decoration:underline;
+}
+
+header{
+background:#f4f4f4;
+padding:80px 20px;
+}
+
+h1{
+font-size:44px;
+margin-bottom:20px;
+}
+
+p{
+max-width:700px;
+margin:auto;
+font-size:18px;
+line-height:1.6;
+white-space:pre-line;
+}
+
+button{
+margin-top:35px;
+padding:14px 28px;
+font-size:16px;
+background:#4caf50;
+color:white;
+border:none;
+border-radius:6px;
+cursor:pointer;
+}
+
+button:hover{
+background:#3f9442;
+}
+
+</style>
+
 </head>
+
 <body>
 
-  <!-- Navigation -->
-  <nav>
-    <div><strong>Ubaldo Lopez</strong></div>
-    <div>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="projects.html">See All Projects</a>
-      <a href="#contact">Contact</a>
-    </div>
-  </nav>
+<nav>
+<a href="index.html">home</a>
+<a href="projects.html">projects</a>
+</nav>
 
-  <!-- Header / Hero Section -->
-  <header id="about">
-    <h1>Ubaldo Lopez</h1>
-    <p>
-I am an Honors Computer Science student with experience developing projects using Python,
-MIT App Inventor, and VEX VR. Throughout the school year I have worked on programs,
+<header>
+
+<h1>ubaldo lopez</h1>
+
+<p>
+i am an honors computer science student with experience developing projects using python,
+mit app inventor, and vex vr. throughout the school year i have worked on programs,
 applications, and virtual robotics challenges that strengthened my problem-solving and
-computational thinking skills. This portfolio showcases the projects I created and the
-technical skills I developed.
-    </p>
-  </header>
+computational thinking skills. this portfolio showcases the projects i created and the
+technical skills i developed.
+</p>
 
-  <!-- Projects Section -->
-  <section id="projects" style="background-color: #f9f9f9;">
-    <h2>My Projects</h2>
-    <p>Here’s a glimpse of the projects I’ve worked on using Python, MIT App Inventor, and VEX VR. Explore more to see all my work!</p>
+<a href="projects.html">
+<button>see my projects</button>
+</a>
 
-    <div class="projects-container">
-      <div class="project-card">
-        <img src="mit_app_project_screenshot.png" alt="MIT App Inventor Project">
-        <h3>MIT App Inventor Project</h3>
-        <p>Created an interactive mobile app with custom features.</p>
-      </div>
-
-      <div class="project-card">
-        <img src="vex_vr_project_screenshot.png" alt="VEX VR Project">
-        <h3>VEX VR Challenge</h3>
-        <p>Programmed a robot to complete tasks in a virtual environment.</p>
-      </div>
-
-      <div class="project-card">
-        <img src="python_project_screenshot.png" alt="Python Project">
-        <h3>Python Project</h3>
-        <p>Developed programs and applications that strengthened problem-solving skills.</p>
-      </div>
-    </div>
-
-    <a href="projects.html" class="btn">See All Projects</a>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <p>If you’d like to reach out, you can email me at <strong>youremail@example.com</strong>.</p>
-  </section>
+</header>
 
 </body>
 </html>
